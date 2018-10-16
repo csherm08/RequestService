@@ -1,0 +1,27 @@
+{
+  "name": "requestservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "tsc": "tsc --project ./src/tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.12.2",
+    "npm": "^6.4.1",
+    "ts-node": "^7.0.1",
+    "tsc-watch": "^1.0.30",
+    "tslint": "^5.11.0",
+    "tslint-microsoft-contrib": "^5.2.1"
+  },
+  "dependencies": {
+    "es7-shim": "^6.0.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.3"
+  }
+}
