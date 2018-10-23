@@ -1,27 +1,17 @@
 {
   "compilerOptions": {
-    // http://node.green/
-    "target": "es2017",
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
     "module": "commonjs",
-    "lib": [
-      "dom",
-      "es2017"
-    ],
-    "rootDir": "./",
-    "removeComments": false,
-
-    /* Strict Type-Checking Options */
-    "strict": true,
-    "noImplicitAny": false,
-    "strictFunctionTypes": false,
-    "noUnusedParameters": false,
-
-    /* Module Resolution Options */
     "moduleResolution": "node",
-    "baseUrl": "./"
-  },
-  "include": [
-    "src/**/*",
-    "typings/**/*"
-  ]
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "rootDir": "src",
+    "outDir": "dist"
+  }
 }

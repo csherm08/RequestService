@@ -1,0 +1,31 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "cyclomatic-complexity": true,
+    "interface-name": [true, "never-prefix"],
+    "max-file-line-count": [true, 1400],
+    "mocha-avoid-only": true,
+    "no-duplicate-imports": true,
+    "no-return-await": true,
+    "no-switch-case-fall-through": true,
+    "no-unnecessary-field-initialization": true,
+    "no-unnecessary-local-variable": true,
+    "no-unnecessary-type-assertion": true,
+    "object-literal-sort-keys": false,
+    "ordered-imports": [true, {"grouped-imports": true}],
+    "prefer-object-spread": true
+  },
+  "rulesDirectory": [
+    "node_modules/tslint-microsoft-contrib"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  }
+}
